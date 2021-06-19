@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <img src="images/logo.svg" alt="logo" class="logo">
+      <nav>
+        <ul class="nav">
+          <li><a href="#Features">Features</a></li>
+          <li><a href="#Team">Team</a></li>
+          <li><a href="#SignIn">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div id="Features">
+        <div class="text">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+
+          <p>Fylo stores your most important files in one secure location.
+            Access<br>them wherever you need, share and collaborate with friends,
+            family,<br> and co-workers.</p>
+
+          <form action="">
+            <input type="email" name="email" pattern="+@" placeholder="Enter your email" class="input1">
+            <button type="submit" class="btn1">Get Started</button>
+          </form>
+        </div>
+        <img src="images/illustration-1.svg" alt="" class="illustration1">
+      </div>
+
+      <img src="images/bg-curve-desktop.svg" alt="" class="image">
+      <div id="Team">
+        <div class="text1">
+          <h1>Stay productive, wherever you are</h1>
+
+          <p>Never let location be an issue when accessing your files. Fylo has you<br>
+            covered for all of your file storage needs.</p>
+
+          <p>Securely share files and folders with friends, family and colleagues for<br>
+            live collaboration. No email attachments required!</p>
+
+          <input type="button" value="See how Fylo works" class="btn">
+
+          <div class="card">
+            <img src="images/icon-quotes.svg" alt="" class="quotes">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+
+            <div class="intro">
+              <img src="images/avatar-testimonial.jpg" alt="" class="testimonial">
+              <div class="name">
+                <h6>Kyle Burton</h6>
+                <p class="work">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="images/illustration-2.svg" alt="" class="illustration2">
+      </div>
+
+      <div id="SignIn">
+        <div class="text2">
+          <h3>Get early access today</h3>
+
+          <p>It only takes a minute to sign up and our free starter tier is<br> extremely generous.
+            If you have any questions, our support team<br> would be happy to help you.</p>
+        </div>
+
+        <form action="" class="form">
+          <input type="email" name="email" pattern="+@" placeholder="Enter your email" class="input2">
+          <button type="submit" class="btn2">Get Started For Free</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contacts">
+        <img src="images/logo1.svg" alt="" class="white-logo">
+        <div class="phone">
+          <img src="images/icon-phone.svg" alt="">
+          <span>Phone: +1-543-123-4567</span>
+        </div>
+        <div class="email">
+          <img src="images/icon-email.svg" alt="">
+          <span>example@fylo.com</span>
+        </div>
+      </div>
+
+      <div class="links">
+        <ul class="ul">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+    
+  </div>
+</body>
+
+</html>
